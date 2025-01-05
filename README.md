@@ -4,14 +4,14 @@ A simple and interactive calculator built using **HTML**, **CSS**, and **JavaScr
 
 ---
 
-## 🚀 Features
+##  Features
 - Basic arithmetic operations: Addition, Subtraction, Multiplication, Division
 - Responsive design for mobile and desktop devices
 - Clear button to reset calculations
 - Error handling for invalid inputs
 
 ---
-## 🛠️ Technologies Used
+##  Technologies Used
 - **HTML5** for structure
 - **CSS3** for styling
 - **JavaScript** for functionality
@@ -21,7 +21,7 @@ A simple and interactive calculator built using **HTML**, **CSS**, and **JavaScr
    [git clone https://github.com/your-username/calculator.git](https://github.com/pushpakchopadekar/Calculator.git)
 
 
-   🌟 How to Customize
+   # How to Customize
 Update colors, fonts, and button styles in styles.css.
 Add more advanced operations (e.g., Addition, Substraction, etc.) in script.js.
 Modify the layout or structure in index.html.
