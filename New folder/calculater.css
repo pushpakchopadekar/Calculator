@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+   
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./img\ 5.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+
+
+.Outer{
+    width: 100%;
+    height: 100vh;
+ /* background-image: url('./WhatsApp\ Image\ 2024-09-27\ at\ 20.16.40_453ea8a3.jpg'); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculater{
+    background:transparent;
+    padding:40px;
+    border-radius: 70px;
+    border: 3px solid rgba(63, 230, 193, 0.934);
+    box-shadow: -2px -2px 15px rgba(39, 184, 148, 0.929),5px 5px 15px rgba(255, 255, 255, 2);
+    box-shadow: rgb(171, 137, 70);
+
+   outline: 10%;
+   
+   
+}
+.calculater:hover{
+    transform: scale(1.05);
+}
+.calculater form input{
+    border: 2px solid;
+    outline: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    outline: 10px;
+   
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    /* box-shadow: -2px -2px 15px rgba(46, 21, 21, 0.1),5px 5px 15px rgba(255, 255, 255, 2); */
+    
+}
+
+.calculater form input:hover{
+    transform: scale(1.25);
+   
+}
+
+
+   
+
+form.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+   
+    
+}
+form.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 65px;
+    
+
+   
+
+    
+}
+/* form input.equal{
+    width: 145px;
+} */
+form input.space{
+    width: 362px;
+    font-size: 45px;
+}
+.calculater input.hover:hover{
+    cursor: pointer;
+    background-color: #c68616;
+
+}
+form input.equal:hover{
+    cursor: pointer;
+    background-color: #c68616;
+    color: rgb(60, 230, 185);
+    box-shadow: -2px -2px 15px rgba(39, 184, 148, 0.929),5px 5px 15px rgba(255, 255, 255, 2);
+}
+.calculater input.hover{
+    color: rgb(52, 255, 211);
+    box-shadow: -2px -2px 15px rgba(39, 184, 148, 0.929),5px 5px 15px rgba(255, 255, 255, 2);
+    border: 1.5px;
+    border-radius: 50px;
+}
+.calculater input.equal{
+    color: rgb(52, 255, 211);
+    box-shadow: -2px -2px 15px rgba(39, 184, 148, 0.929),5px 5px 15px rgba(255, 255, 255, 2);
+    border: 1.5px;
+    border-radius: 50px;
+}
+
